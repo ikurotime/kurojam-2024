@@ -23,31 +23,26 @@ export function MovingCards() {
 const testimonials = [
   {
     quote:
-      'It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.',
-    name: 'Charles Dickens',
-    title: 'A Tale of Two Cities'
+      'Fué otro ambito que pudimos añadir al proyecto me sentí super comoda de poder trabajar en lo que a mi me gustaba y poder retocar las cosas a mi gusto en cuanto a diseño y ilustraciones, es decir, me encantó que la KuroJam fuese tan libre para permitir artistas de diferentes tipos, y sobretodo lo cómoda que estuve y la de implementaciones que se pudieron hacer',
+    name: 'Alma',
+    title: 'PatoClick'
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: 'William Shakespeare',
-    title: 'Hamlet'
-  },
-  {
-    quote: 'All that we see or seem is but a dream within a dream.',
-    name: 'Edgar Allan Poe',
-    title: 'A Dream Within a Dream'
+      'Tuve la oportunidad de participar en la KuroJam dentro del equipo de Duckurophy. La experiencia ha sido realmente gratificante. He aprendido acerca de cómo utilizar la API de OpenIA para generar las imágenes. El feedback de los jueces ha sido súper constructivo y Kuro ha sido un host excepcional.',
+    name: 'Nadia',
+    title: 'Pato IA'
   },
   {
     quote:
-      'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.',
-    name: 'Jane Austen',
-    title: 'Pride and Prejudice'
+      'Participé en la primera KuroJam con mi compañero DKAN con un idle clicker que resultó ser ganador, y tuvimos suerte porque el resto de proyectos que se presentaron fueron increíbles. Bastante satisfecho con el evento y tengo ganas de la siguiente edición!!',
+    name: 'Unai',
+    title: 'PatoClick'
   },
   {
     quote:
-      'Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.',
-    name: 'Herman Melville',
-    title: 'Moby-Dick'
+      'A mi la kuro jam me dejo con trastorno de estrés postraumático, tuve que dejarlo a la mitad, hay un mensaje en el discord que lo respalda 5/5',
+    name: 'Alexeira',
+    title: ''
   }
 ]
