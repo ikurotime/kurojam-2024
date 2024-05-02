@@ -3,20 +3,20 @@
 
 Roadmap: 
 - [x] Add a landing page
-- [] Add a logo
-- [] Add testimonials
-- [] Add last year winners / projects / page
-- [] Add FAQ
-- [] Add sponsors
-- [] Add a font (DM Mono, DM Sans)?
-- [] Background ?
-- [] Add a countdown
-- [] Basic SEO
-- [] Rules page
-- [] Prizes page
-- [] Review Copys
-- [] Form to send projects
-- [] Deploy
+- [ ] Add a logo
+- [ ] Add testimonials
+- [ ] Add last year winners / projects / page
+- [ ] Add FAQ
+- [ ] Add sponsors
+- [ ] Add a font (DM Mono, DM Sans)?
+- [ ] Background ?
+- [ ] Add a countdown
+- [ ] Basic SEO
+- [ ] Rules page
+- [ ] Prizes page
+- [ ] Review Copys
+- [ ] Form to send projects
+- [ ] Deploy
 
 First, install the dependencies:
 
