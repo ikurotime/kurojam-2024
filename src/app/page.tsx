@@ -8,14 +8,12 @@ import Navbar from '@/components/ui/Navbar'
 
 export default function Home() {
   return (
-    <main className='flex flex-col'>
-      <Navbar />
+    <>
       <Hero />
       <FeatureCards />
       <BentoGridDemo />
       <MovingCards />
       <BottomCTA />
-      <Footer />
-    </main>
+    </>
   )
 }

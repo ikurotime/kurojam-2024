@@ -1,6 +1,23 @@
 
 ## KuroJam 2024 🚀 
 
+Roadmap: 
+- [x] Add a landing page
+- [] Add a logo
+- [] Add testimonials
+- [] Add last year projects / page
+- [] Add FAQ
+- [] Add sponsors
+- [] Add a font (DM Mono, DM Sans)?
+- [] Background ?
+- [] Add a countdown
+- [] Basic SEO
+- [] Rules page
+- [] Prizes page
+- [] Review Copys
+- [] Form to send projects
+- [] Deploy
+
 First, install the dependencies:
 
 ```bash
