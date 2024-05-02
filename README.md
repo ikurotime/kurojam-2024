@@ -5,6 +5,8 @@ Last year website: https://www.kurojam.com/
 
 Roadmap: 
 - [x] Add a landing page
+- [ ] Add Login/Signup
+- [ ] Add a dashboard to send and edit projects
 - [ ] Add a logo
 - [ ] Add testimonials
 - [ ] Add last year winners / projects / page
