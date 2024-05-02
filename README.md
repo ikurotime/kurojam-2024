@@ -1,6 +1,8 @@
 
 ## KuroJam 2024 🚀 
 
+Last year website: https://www.kurojam.com/
+
 Roadmap: 
 - [x] Add a landing page
 - [ ] Add a logo
