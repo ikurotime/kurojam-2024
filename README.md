@@ -5,7 +5,7 @@ Roadmap:
 - [x] Add a landing page
 - [] Add a logo
 - [] Add testimonials
-- [] Add last year projects / page
+- [] Add last year winners / projects / page
 - [] Add FAQ
 - [] Add sponsors
 - [] Add a font (DM Mono, DM Sans)?
