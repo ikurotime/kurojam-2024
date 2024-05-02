@@ -1,5 +1,6 @@
 'use client'
 
+import Button from './Button'
 import React from 'react'
 import { SparklesCore } from '../ui/sparkles'
 
@@ -13,9 +14,7 @@ export function Hero() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </div>
-      <button className='px-4 py-2 rounded-md bg-white text-black'>
-        Registrarte
-      </button>
+      <Button label='Registrarse' />
       <div className='w-[40rem] h-40 relative'>
         {/* Gradients */}
         <div className='absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm' />
