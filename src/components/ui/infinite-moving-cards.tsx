@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 
-import { cn } from '../../../utils/cn'
+import { cn } from '@/utils/cn'
 
 export const InfiniteMovingCards = ({
   items,
