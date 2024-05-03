@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@codaworks/react-glow": "^1.0.6",
     "@prisma/client": "^5.13.0",
     "@rumess/react-flip-countdown": "^1.2.6",
     "@supabase/ssr": "^0.3.0",
