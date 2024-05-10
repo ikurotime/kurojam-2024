@@ -6,6 +6,7 @@ Last year website: https://www.kurojam.com/
 Roadmap: 
 - [x] Add a landing page
 - [x] Add Login/Signup Flow
+- [ ] Add testimonials pfp
 - [ ] Add OAuth
 - [ ] Add a dashboard to send and edit projects
 - [ ] Add a logo
