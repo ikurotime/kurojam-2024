@@ -12,7 +12,7 @@ export default function Card({ feature }: Props) {
   return (
     <GlowCapture>
       <Glow>
-        <div className='flex flex-col gap-4 h-80 my-20 box-border p-8 w-80 rounded-md border border-primary-bg bg-neutral-900 glow:border-white  glow:bg-white/10'>
+        <div className='flex flex-col gap-4 h-80 my-5 md:my-20 box-border p-8 md:w-80 rounded-md border border-primary-bg bg-neutral-900 glow:border-white  glow:bg-white/10'>
           <span className='text-2xl font-bold '>{feature.title}</span>
           <span className='text-base'>{feature.description}</span>
         </div>

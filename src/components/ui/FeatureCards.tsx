@@ -23,7 +23,7 @@ const features = [
 ]
 export default function FeatureCards() {
   return (
-    <div className='flex gap-8 w-full justify-center'>
+    <div className='flex flex-col md:flex-row md:gap-8 w-full justify-center p-5'>
       {features.map((feature, index) => (
         <Card key={index} feature={feature} />
       ))}

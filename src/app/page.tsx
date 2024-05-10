@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <FeatureCards />
-      <BentoGridDemo />
       <MovingCards />
+      <BentoGridDemo />
+      <FeatureCards />
       <BottomCTA />
     </>
   )

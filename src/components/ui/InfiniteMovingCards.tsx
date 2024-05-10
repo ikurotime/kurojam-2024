@@ -6,8 +6,8 @@ import { InfiniteMovingCards } from '../ui/infinite-moving-cards'
 
 export function MovingCards() {
   return (
-    <div className='h-[40rem] rounded-md flex gap-8 flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden'>
-      <div className='flex flex-col gap-4 font-black items-center'>
+    <div className='h-[40rem] rounded-md flex gap-8 flex-col antialiased   items-center justify-center relative overflow-hidden'>
+      <div className='flex flex-col gap-4 font-black items-center text-center'>
         <span className='text-5xl'>Escucha lo que dicen los devs</span>
         <span className='text-xl '>Opiniones de la KuroJam de 2023</span>
       </div>
