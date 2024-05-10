@@ -5,6 +5,7 @@ import Footer from '@/components/ui/Footer'
 import { Hero } from '@/components/ui/Hero'
 import { MovingCards } from '@/components/ui/InfiniteMovingCards'
 import Navbar from '@/components/ui/Navbar'
+import { ParallaxSection } from '@/components/ui/ParallaxSection'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <MovingCards />
       <BentoGridDemo />
       <FeatureCards />
+      <ParallaxSection />
       <BottomCTA />
     </>
   )
