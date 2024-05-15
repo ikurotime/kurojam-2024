@@ -18,12 +18,11 @@ export default function Navbar() {
           </div>
         </div>
         <div className='flex gap-4 text-sm items-center'>
-          <Link href='/sign-up'>Log in</Link>
           <Link
-            href='/sign-in'
+            href='/login'
             className='rounded-full bg-white text-black px-3 py-1'
           >
-            Sign up
+            Registrarse
           </Link>
         </div>
       </div>

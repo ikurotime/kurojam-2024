@@ -24,7 +24,10 @@ Roadmap:
 - [ ] Form to send projects
 - [ ] Deploy
 
-First, install the dependencies:
+First, create a .env file from .env.example and fill in the required fields.
+
+```bash
+Then, install the dependencies:
 
 ```bash
 npm install

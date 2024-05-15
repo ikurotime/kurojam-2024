@@ -21,7 +21,7 @@ model User {
   username      String?
   image_url String?
   createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
+  updatedAt DateTime  @updatedAt @default(now())
   projects  Project[]
 }
 
