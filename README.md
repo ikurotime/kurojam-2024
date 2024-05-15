@@ -7,16 +7,16 @@ Roadmap:
 - [x] Add a landing page
 - [x] Add Login/Signup Flow
 - [ ] Add testimonials pfp
-- [ ] Add OAuth
+- [x] Add OAuth
 - [ ] Add a dashboard to send and edit projects
 - [ ] Add a logo
-- [ ] Add testimonials
-- [ ] Add last year winners / projects / page
+- [x] Add testimonials
+- [x] Add last year winners / projects / page
 - [ ] Add FAQ
 - [ ] Add sponsors
-- [ ] Add a font (DM Mono, DM Sans)?
-- [ ] Background ?
-- [ ] Add a countdown
+- [x] Add a font (DM Mono, DM Sans)?
+- [x] Background ?
+- [x] Add a countdown
 - [ ] Basic SEO
 - [ ] Rules page
 - [ ] Prizes page
