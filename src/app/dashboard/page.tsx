@@ -13,7 +13,7 @@ export default async function PrivatePage() {
   // TODO: Upload project with form to Project Table
 
   return (
-    <div className='flex gap-4 flex-col rounded-md p-14 bg-zinc-950 border-primary-bg w-full max-w-5xl m-auto min-h-dvh'>
+    <div className='flex gap-4 flex-col rounded-md p-14 my-12 bg-zinc-950 border-primary-bg w-full max-w-5xl m-auto min-h-dvh'>
       <div className='flex gap-8 justify-between w-full'>
         <div>
           <span className='text-2xl font-black'>Dashboard</span>

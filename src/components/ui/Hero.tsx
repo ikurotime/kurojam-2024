@@ -3,7 +3,6 @@
 import Button from './Button'
 import CountDown from './CountDown'
 import React from 'react'
-import { SparklesCore } from '../ui/sparkles'
 
 export function Hero() {
   return (

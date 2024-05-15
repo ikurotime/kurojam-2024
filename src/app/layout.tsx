@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${khand.variable} ${pilcrow.variable} font-pilcrow`}>
-        <main className='flex flex-col relative antialiased bg-white dark:bg-black dark:bg-grid-white/[0.10]  '>
+        <main className='flex flex-col relative antialiased text-white bg-black bg-grid-white/[0.10]   '>
           <Navbar />
           {children}
           <Footer />
