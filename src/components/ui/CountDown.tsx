@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 export default function CountDown() {
   // coundown date in utc
-  const countdownDate = new Date('2024-06-01T00:00:00').getTime()
+  const countdownDate = new Date('2024-08-04T00:00:00').getTime()
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
