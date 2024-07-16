@@ -44,7 +44,8 @@ export default async function Navbar() {
                 {user ? 'Mi proyecto' : 'Inscribirse'}
               </Link> */}
               <Link
-                href={''}
+                href={'https://discord.gg/3sWGgBzXQd'}
+                target='_blank'
                 className='rounded bg-[#5965F1] text-white px-4 py-2 text-xl flex gap-2 items-center'
               >
                 <svg
