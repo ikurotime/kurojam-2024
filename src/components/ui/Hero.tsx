@@ -2,6 +2,7 @@
 
 import Button from './Button'
 import CountDown from './CountDown'
+import Link from 'next/link'
 import React from 'react'
 
 export function Hero() {
@@ -23,8 +24,13 @@ export function Hero() {
       </div>
       <CountDown />
       <div className='flex gap-3'>
-        <Button label='Inscribirse' />
-        <Button label='Cómo particiar' className='text-black bg-[#FFF6E8]' />
+        {/* <Button label='Inscribirse' /> */}
+        <Link
+          href='#como-participar'
+          className='text-black bg-[#FFF6E8] py-2 px-4 rounded text-2xl'
+        >
+          Cómo participar
+        </Link>
       </div>
     </div>
   )
