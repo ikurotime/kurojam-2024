@@ -1,5 +1,6 @@
 import { BentoGridDemo } from '@/components/ui/BentoGrid'
 import BottomCTA from '@/components/ui/BottomCTA'
+import FAQ from '@/components/ui/FAQ'
 import FeatureCards from '@/components/ui/FeatureCards'
 import Footer from '@/components/ui/Footer'
 import { Hero } from '@/components/ui/Hero'
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <MovingCards />
       <ParallaxSection />
+      <FAQ />
       <HowToEnter />
       <BottomCTA />
     </>
