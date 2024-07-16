@@ -12,8 +12,6 @@ export default function Home() {
     <>
       <Hero />
       <MovingCards />
-      <BentoGridDemo />
-      <FeatureCards />
       <ParallaxSection />
       <BottomCTA />
     </>

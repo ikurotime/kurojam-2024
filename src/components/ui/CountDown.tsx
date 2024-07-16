@@ -30,7 +30,7 @@ export default function CountDown() {
     return () => clearInterval(interval)
   }, [countdownDate])
   return (
-    <p className='text-4xl md:text-5xl font-black'>
+    <p className='text-4xl md:text-6xl font-black'>
       {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
     </p>
   )

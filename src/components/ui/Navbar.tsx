@@ -12,19 +12,16 @@ export default async function Navbar() {
   }
   console.log(user)
   return (
-    <div className='h-16 border-b border-primary-bg flex px-8 z-30 text-white items-center sticky inset-x-0 top-0 transition-all'>
-      <div className='-z-1 absolute inset-0 transition-all border-b  backdrop-blur-lg border-white/10 bg-black/75'></div>
+    <div className='h-16 border-b border-primary-bg flex px-8 z-30  items-center sticky inset-x-0 top-0 transition-all'>
+      <div className='-z-1 absolute inset-0 transition-all border-b  backdrop-blur-lg border-white/10 bg-primary-bg/75'></div>
       <div className='flex justify-between w-full max-w-screen-xl m-auto z-30'>
-        <div className='flex gap-16 items-center'>
-          <Link href='/' className='font-bold'>
-            KuroJam
+        <div className='flex gap-16 items-center text-3xl '>
+          <Link href='/' className='font-bold text-[#F64E25]'>
+            KJ
           </Link>
-          <div className='flex gap-4 max-md:hidden text-sm font-bold'>
-            <Link href='/ediciones-anteriores'>Ediciones anteriores</Link>
+          <div className='flex gap-4 max-md:hidden text-base font-bold'>
             <Link href='/como-participar'>Cómo participar</Link>
             <Link href='/reglas'>Reglas</Link>
-            <Link href='/premios'>Premios</Link>
-            <Link href='/patrocinadores'>Patrocinadores</Link>
           </div>
         </div>
         <div className='flex gap-4 text-sm items-center'>
@@ -39,12 +36,20 @@ export default async function Navbar() {
               />
             </Dropdown>
           ) : (
-            <Link
-              href={user ? '/dashboard' : '/login'}
-              className='rounded-full bg-white text-black px-3 py-1'
-            >
-              {user ? 'Dashboard' : 'Registrarse'}
-            </Link>
+            <>
+              <Link
+                href={user ? '/dashboard' : '/login'}
+                className='rounded bg-[#F64E25] text-white px-4 py-2 text-xl'
+              >
+                {user ? 'Mi proyecto' : 'Inscribirse'}
+              </Link>
+              <Link
+                href={''}
+                className='rounded bg-[#5965F1] text-white px-4 py-2 text-xl'
+              >
+                comunidad
+              </Link>
+            </>
           )}
         </div>
       </div>

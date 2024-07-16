@@ -7,14 +7,25 @@ import React from 'react'
 export function Hero() {
   return (
     <div className='h-[40rem] gap-8 w-full  flex flex-col items-center justify-center overflow-hidden rounded-md'>
-      <h1 className='text-5xl font-pilcrow lg:text-8xl font-bold text-center text-white relative z-20'>
+      <h1 className='text-5xl  lg:text-8xl font-bold text-center relative z-20 text-[#F64E25] cursor-default'>
         KuroJam
       </h1>
-      <div className='max-w-prose text-center'>
-        La Hackathon donde puedes demostrar tus habilidades y ganar premios.
+      <div className='flex flex-col text-7xl text-center cursor-default'>
+        <span>
+          Construye un <span className='text-[#FABF29]'>proyecto</span>
+        </span>
+        <span>
+          Usa cualquier <span className='text-[#007656]'>tecnologia</span>
+        </span>
+        <span>
+          Aprende y <span className='text-[#FFCCDE]'>diviertete</span>
+        </span>
       </div>
       <CountDown />
-      <Button label='Registrarse' />
+      <div className='flex gap-3'>
+        <Button label='Inscribirse' />
+        <Button label='Cómo particiar' className='text-black bg-[#FFF6E8]' />
+      </div>
     </div>
   )
 }

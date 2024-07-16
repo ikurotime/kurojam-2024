@@ -21,9 +21,9 @@ export const HeroParallax = ({
     thumbnail: string
   }[]
 }) => {
-  const firstRow = products.slice(0, 5)
-  const secondRow = products.slice(5, 10)
-  const thirdRow = products.slice(10, 15)
+  const firstRow = products.slice(0, 4)
+  const secondRow = products.slice(4, 8)
+  const thirdRow = products.slice(8, 11)
   const ref = React.useRef(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -106,9 +106,9 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className='max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0'>
-      <h1 className='text-2xl md:text-7xl font-boldtext-white'>
+      <h1 className='text-2xl md:text-7xl font-bold'>
         Descubre los proyectos
-        <br /> de la Kurojam
+        <br /> de la <span className='text-[#F64E25]'> Kurojam</span>
       </h1>
       <p className='max-w-2xl text-base md:text-xl mt-8 text-neutral-200'>
         Los participantes de la Kurojam lo dan todo para crear en solitario o en
@@ -153,7 +153,7 @@ export const ProductCard = ({
         />
       </Link>
       <div className='absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none'></div>
-      <h2 className='absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white'>
+      <h2 className='absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 '>
         {product.title}
       </h2>
     </motion.div>

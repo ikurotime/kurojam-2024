@@ -8,8 +8,8 @@ export default function BottomCTA() {
         <span>Crea proyectos geniales</span>
       </div>
       <div className='flex gap-4'>
-        <Button label='Apuntarse' />
-        <Button label='Más información' />
+        <Button label='Inscribirse' />
+        <Button label='Cómo participar' className='text-black bg-[#FFF6E8]' />
       </div>
     </div>
   )

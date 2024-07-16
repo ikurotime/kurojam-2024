@@ -1,3 +1,4 @@
+import { text } from 'stream/consumers'
 import type { Config } from 'tailwindcss'
 
 const svgToDataUri = require('mini-svg-data-uri')
@@ -25,12 +26,13 @@ const config: Config = {
     },
     extend: {
       colors: {
-        'primary-bg': '#121212',
+        'primary-bg': '#1C1C1C',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
+        'primary-text': '#FFF6E8',
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))'
@@ -93,7 +95,8 @@ const config: Config = {
       },
       fontFamily: {
         khand: ['var(--khand)'],
-        pilcrow: ['var(--pilcrow)']
+        pilcrow: ['var(--pilcrow)'],
+        tanker: ['var(--tanker)']
       }
     }
   },

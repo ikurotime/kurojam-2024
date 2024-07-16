@@ -7,7 +7,16 @@ import Navbar from '@/components/ui/Navbar'
 import localFont from 'next/font/local'
 
 //const inter = Inter({ subsets: ['latin'] })
-
+const tanker = localFont({
+  src: [
+    {
+      path: '../../public/fonts/Tanker-Regular.ttf',
+      weight: '400',
+      style: 'normal'
+    }
+  ],
+  variable: '--tanker'
+})
 const khand = localFont({
   src: [
     {
@@ -51,8 +60,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${khand.variable} ${pilcrow.variable} font-pilcrow`}>
-        <main className='flex flex-col relative antialiased text-white bg-black bg-grid-white/[0.10]   '>
+      <body className={` ${tanker.variable} ${pilcrow.variable} font-tanker`}>
+        <main className='flex flex-col relative antialiased text-primary-text bg-primary-bg  '>
           <Navbar />
           {children}
           <Footer />
