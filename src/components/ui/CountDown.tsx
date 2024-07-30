@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic'
 
 function updateCountdown() {
   const now = new Date()
-  const release = new Date(Date.UTC(2024, 7, 5, 0, 0, 0))
+  const release = new Date(Date.UTC(2024, 7, 5, 21, 0, 0))
   const timeRemaining = Number(release) - Number(now)
 
   const dayDiff = ~~(timeRemaining / 86_400_000)
