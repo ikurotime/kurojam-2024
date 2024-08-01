@@ -9,6 +9,11 @@ const QUESTIONS = [
     answer: 'Del 1 al 21 de agosto de 2024.'
   },
   {
+    question: 'Habrá premios? 🎁',
+    answer:
+      '¡Sí! Habrá premios para 3 categorías: Mejor General, Mejor Visualmente y Mejor Técnicamente.'
+  },
+  {
     question: '¿Cuando se deciden los ganadores? 🏆',
     answer: 'El 26 de agosto de 2024.'
   },
