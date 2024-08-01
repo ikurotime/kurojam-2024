@@ -2,6 +2,7 @@ import { Dropdown } from './Dropdown'
 import Image from 'next/image'
 import Link from 'next/link'
 import { createClient } from '@/utils/supabase/server'
+import { login } from '@/app/login/actions'
 
 export default async function Navbar() {
   const supabase = createClient()
@@ -10,7 +11,6 @@ export default async function Navbar() {
   if (!error || data?.user) {
     user = data.user
   }
-  console.log(user)
   return (
     <div className='h-16 border-b border-primary-bg flex px-8 z-30  items-center sticky inset-x-0 top-0 transition-all'>
       <div className='-z-1 absolute inset-0 transition-all border-b  backdrop-blur-lg border-white/10 bg-primary-bg/75'></div>
@@ -37,12 +37,14 @@ export default async function Navbar() {
             </Dropdown>
           ) : (
             <>
-              {/* <Link
-                href={user ? '/dashboard' : '/login'}
-                className='rounded bg-[#F64E25] text-white px-4 py-2 text-xl'
-              >
-                {user ? 'Mi proyecto' : 'Inscribirse'}
-              </Link> */}
+              {user ? null : (
+                <form className='px-4 py-2 text-xl flex flex-col bg-[#F64E25] max-w-md rounded-md  '>
+                  <button formAction={login} className='text-xl'>
+                    Inscribirse
+                  </button>
+                </form>
+              )}
+
               <Link
                 href={'https://discord.gg/3sWGgBzXQd'}
                 target='_blank'

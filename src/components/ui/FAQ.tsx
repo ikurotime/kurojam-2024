@@ -26,9 +26,9 @@ export default function FAQ() {
   return (
     <div
       id='faq'
-      className='flex flex-col w-full p-5 text-2xl m-auto justify-center max-w-5xl gap-5'
+      className='flex flex-col w-full p-5 text-2xl m-auto justify-center  max-w-5xl gap-5'
     >
-      <span className='text-6xl'>PREGUNTAS FRECUENTES</span>
+      <span className='text-6xl text-center'>PREGUNTAS FRECUENTES</span>
       <div className='flex flex-col gap-5'>
         {QUESTIONS.map((question, index) => (
           <div key={index} className='flex flex-col border p-5'>
