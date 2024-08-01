@@ -27,7 +27,7 @@ export default function HowToEnter() {
       className='flex flex-col w-full justify-center text-center max-w-6xl m-auto gap-5 p-20'
     >
       <span className='text-6xl'>Cómo participar</span>
-      <div className='grid grid-cols-2 grid-rows-2 gap-5 text-left'>
+      <div className='grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-5 text-left'>
         {STEPS.map((step, index) => (
           <div
             key={step.description}

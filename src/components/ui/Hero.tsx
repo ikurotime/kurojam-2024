@@ -11,7 +11,7 @@ export function Hero() {
       <h1 className='text-5xl  lg:text-8xl font-bold text-center relative z-20 text-[#F64E25] cursor-default'>
         KuroJam
       </h1>
-      <div className='flex flex-col text-7xl text-center cursor-default'>
+      <div className='flex flex-col text-5xl md:text-7xl text-center cursor-default'>
         <span>
           Construye un <span className='text-[#FABF29]'>proyecto</span>
         </span>
