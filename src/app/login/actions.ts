@@ -9,7 +9,7 @@ export async function login() {
   const { data, error } = await supabase.auth.signInWithOAuth({
     provider: 'github',
     options: {
-      redirectTo: 'http://localhost:3000/auth/callback'
+      redirectTo: process.env.BACKEND_URL + '/auth/callback'
     }
   })
 
