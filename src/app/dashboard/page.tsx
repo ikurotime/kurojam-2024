@@ -44,12 +44,14 @@ export default async function PrivatePage() {
                   <div className='flex gap-4'>
                     <a
                       href={project.github_url}
+                      target='_blank'
                       className='px-2 py-1  rounded bg-slate-700'
                     >
                       Ver en Github
                     </a>
                     <a
                       href={project.site_url}
+                      target='_blank'
                       className='bg-white text-black px-2 py-1 rounded'
                     >
                       Ver proyecto
