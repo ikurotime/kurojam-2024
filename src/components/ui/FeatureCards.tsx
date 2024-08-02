@@ -8,7 +8,7 @@ const features = [
   },
   {
     title: '¿Cuándo es?',
-    description: 'Se llevará a cabo del 1 al 14 de junio del 2024.'
+    description: 'Se llevará a cabo del 5 al 14 de junio del 2024.'
   },
   {
     title: '¿Habrá premios? ',
