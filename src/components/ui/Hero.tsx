@@ -22,9 +22,15 @@ export function Hero() {
           Aprende y <span className='text-[#FFCCDE]'>diviertete</span>
         </span>
       </div>
-      <CountDown />
+      <div className='text-5xl text-center'>
+        <span>Tema:</span>
+        <br />
+        <span>
+          &quot;algo <span className='text-[#FABF29]'>amarillo</span>&quot;
+        </span>
+      </div>
       <div className='flex gap-3'>
-        {/* <Button label='Inscribirse' /> */}
+        <Button label='Inscribirse' />
         <Link
           href='#como-participar'
           className='text-black bg-[#FFF6E8] py-2 px-4 rounded text-2xl'
