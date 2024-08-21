@@ -31,6 +31,6 @@ model Project {
   is_winner   Boolean  @default(false)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
-  user_id     String   @unique
+  user_id     String   
   User        User[]
 }
