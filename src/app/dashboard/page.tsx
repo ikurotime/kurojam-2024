@@ -35,7 +35,7 @@ export default async function PrivatePage() {
       </div>
       {projects ? (
         <div>
-          <ul>
+          <ul className='flex flex-col gap-4'>
             {projects.map((project) => (
               <li key={project.id}>
                 <div className='flex flex-col gap-4 border p-5'>
@@ -55,6 +55,12 @@ export default async function PrivatePage() {
                       className='bg-white text-black px-2 py-1 rounded'
                     >
                       Ver proyecto
+                    </a>
+                    <a
+                      href={'/dashboard/edit/' + project.id}
+                      className='bg-white text-black px-2 py-1 rounded'
+                    >
+                      Editar proyecto
                     </a>
                   </div>
                 </div>
