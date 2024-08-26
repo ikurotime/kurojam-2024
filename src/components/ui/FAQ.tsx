@@ -6,7 +6,7 @@ const QUESTIONS = [
   },
   {
     question: '¿Cuándo es? 📅',
-    answer: 'Del 5 al 21 de agosto de 2024.'
+    answer: 'Del 5 al 31 de agosto de 2024.'
   },
   {
     question: 'Habrá premios? 🎁',
